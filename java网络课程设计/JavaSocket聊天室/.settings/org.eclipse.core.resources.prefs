@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/Client/Frame/ClientFrame.java=UTF-8
+encoding//src/Client/Frame/Login.java=UTF-8
+encoding//src/Client/Frame/Register.java=UTF-8
+encoding//src/Client/Service/ClientSendRequest.java=UTF-8
+encoding//src/Client/Service/ListeningThread.java=UTF-8
+encoding//src/Client/Service/SingleBuffer.java=UTF-8
+encoding//src/SharedModule/Response.java=UTF-8
+encoding//src/SharedModule/ResponseType.java=UTF-8

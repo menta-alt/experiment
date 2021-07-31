@@ -1,0 +1,6 @@
+﻿  ping.cpp
+C:\Users\小萌\source\repos\Ping\Ping\ping.cpp(119,24): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\小萌\source\repos\Ping\Ping\ping.cpp(123,29): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\小萌\source\repos\Ping\Ping\ping.cpp(129,27): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\小萌\source\repos\Ping\Ping\ping.cpp(239,89): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Ping.vcxproj -> C:\Users\小萌\source\repos\Ping\Debug\Ping.exe

@@ -1,0 +1,8 @@
+﻿  tracert.cpp
+C:\Users\小萌\source\repos\MyTracert\MyTracert\tracert.cpp(104,57): warning C4244: “=”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+C:\Users\小萌\source\repos\MyTracert\MyTracert\tracert.cpp(229,56): warning C4244: “=”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+C:\Users\小萌\source\repos\MyTracert\MyTracert\tracert.cpp(135,23): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\小萌\source\repos\MyTracert\MyTracert\tracert.cpp(139,29): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\小萌\source\repos\MyTracert\MyTracert\tracert.cpp(142,23): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\小萌\source\repos\MyTracert\MyTracert\tracert.cpp(276,29): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  MyTracert.vcxproj -> C:\Users\小萌\source\repos\MyTracert\Debug\MyTracert.exe

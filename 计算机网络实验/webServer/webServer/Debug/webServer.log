@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(webServer.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  server.cpp
+C:\Users\小萌\source\repos\webServer\webServer\server.cpp(338): warning C4715: “Judge_File_Type”: 不是所有的控件路径都返回值
+  webServer.vcxproj -> C:\Users\小萌\source\repos\webServer\Debug\server.exe
