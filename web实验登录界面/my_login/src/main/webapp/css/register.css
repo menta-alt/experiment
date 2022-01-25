@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background: url(../images/background.png) no-repeat;
+  background-size: 1450px 800px;
+  background-position: bottom center;
+}
+
+.container {
+  width: 25vw;
+  height: 48vh;
+  margin: auto;
+  padding: 5vh 3vw;
+  background-color: #001921b2;
+  color: white;
+  border-radius: 0.4em;
+}
+
+h2 {
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.item {
+  margin: 3.5vh 0;
+  font-size: 1.2em;
+}
+
+.item input {
+  width: 13vw;
+  height: 3.7vh;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+.button input {
+  display: block;
+  width: 7vw;
+  height: 4vh;
+  background: #03a9f4;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+#reset {
+  background: #485275;
+  color: whitesmoke;
+}

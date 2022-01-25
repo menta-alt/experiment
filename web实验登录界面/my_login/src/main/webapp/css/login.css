@@ -1,0 +1,375 @@
+/* 顶部导航栏 */
+.container {
+  background: url(../images/background.png) no-repeat;
+  background-size: 100vw 100vh;
+  background-position: bottom center;
+}
+
+.header {
+  width: 100%;
+  height: 8vh;
+  background: #0019217e;
+}
+
+.header img {
+  float: left;
+  margin: 1.6vh 0 0 1.8vw;
+}
+
+.header .logo {
+  float: left;
+  width: 20vw;
+  height: 8vh;
+  padding-top: 0.9vh;
+}
+
+.header .logo h6 {
+  line-height: 3.3vh;
+  text-align: center;
+  color: #03a9f4;
+}
+
+.header .vline {
+  float: left;
+  width: 0.08vw;
+  height: 6vh;
+  margin-top: 1.3vh;
+  background-color: #03a9f4;
+}
+
+.header .brand {
+  float: left;
+  font-size: 3.8vh;
+  letter-spacing: 0.5vw;
+  line-height: 8vh;
+  margin-left: 2vw;
+  color: #03a9f4;
+}
+
+.header .time {
+  float: right;
+  width: 13vw;
+  height: 8vh;
+  padding-top: 0.9vh;
+}
+
+.header .time h6 {
+  line-height: 3.3vh;
+  text-align: center;
+  color: rgba(245, 245, 245, 0.815);
+}
+/* 主体内容的样式*/
+main {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+}
+
+/* 左侧轮播图样式 */
+main .left {
+  height: 100%;
+  width: 58vw;
+  padding: 2.5vh 1vw;
+}
+
+.left .left_container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #0019212c;
+  border-radius: 0.4em;
+}
+
+.left .focus {
+  position: relative;
+  width: 48vw;
+  height: 64vh;
+  margin: auto;
+  overflow: hidden;
+  background: yellow;
+  border-radius: 0.3em;
+}
+
+/* 箭头 */
+.arrow-l,
+.arrow-r {
+  display: none;
+  position: absolute;
+  top: 50%;
+  width: 2.5vw;
+  height: 10vh;
+  margin-top: -5vh; /*移动到垂直居中*/
+  line-height: 10vh;
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(252, 252, 252, 0.877);
+  text-align: center;
+  font-family: 'icomoon';
+  font-size: 2em;
+  z-index: 2;
+}
+
+.arrow-l {
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+.arrow-r {
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+  right: 0;
+}
+
+/* 图片 */
+.focus {
+  box-shadow: 0 0 20px 12px rgba(0, 0, 0, 0.308);
+}
+
+.focus img {
+  width: 100%;
+}
+
+.focus ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 500%;
+}
+
+.focus ul li {
+  float: left;
+  width: 20%; /*父元素ul的5分之1*/
+}
+
+
+/* 小圆圈 */
+.circle {
+  position: absolute;
+  bottom: 3vh;
+  left: 22vw;
+  margin: 0;
+}
+
+.circle li {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.4em;
+  margin: 0 0.3vw;
+  background-color: rgba(255, 255, 255, 0.808);
+  list-style: none;
+  border-radius: 0.3em;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.circle .current {
+  width: 2.5em; 
+}
+
+
+/* 右侧登录样式 */
+main .right {
+  height: 100%;
+  flex: 1;
+  background: #0019212c;
+}
+
+.right .login_container {
+  position: relative;
+  height: 58vh;
+  width: 28vw;
+  margin: auto;
+  margin-top: 8vh;
+  padding: 5vh 3vw 0;
+  background: white;
+  border-top-left-radius: 0.7em;
+  border-top-right-radius: 0.7em;
+}
+
+.login_container .login_method {
+  width: 20vw;
+  margin: 2vh auto 1vh;
+}
+
+.login_method span {
+  margin: 0 2.4vw;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.login_method .account_a{
+  color: #03a9f4;
+}
+
+.login_container .hline {
+  width: 100%;
+  height: 0.1vh;
+  background-color: #dfdfdf;
+  margin-bottom: 4vh;
+}
+
+/* 输入框部分 */
+/* 账户登录 */
+.login_container .account_input .item{
+  position: relative;
+  width: 100%;
+  height: 7vh;
+  margin-top: 3vh;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.4em;
+}
+
+.account_input .user-icon {
+  background: url(../images/icons/user.png) no-repeat;
+}
+
+.account_input .pwd-icon {
+  background: url(../images/icons/lock.png) no-repeat;
+}
+
+.account_input .item i {
+  position: absolute;
+  left: 0;
+  height: 7vh;
+  width: 7vh;
+  border-right: 1px solid #dfdfdf;
+  border-top-left-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
+  background-size: 4.5vh 4.5vh;
+  background-position: center;
+}
+
+.account_input .item input {
+  width: 100%;
+  padding-left: 9vh;
+  font-size: 1.2em;
+  line-height: 6.8vh;
+}
+
+/* 手机号登录 */
+.login_container .phone_input .item_phone{
+  position: relative;
+  width: 100%;
+  height: 7vh;
+  margin-top: 3vh;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.4em;
+}
+
+.login_container .phone_input .item_check{
+  position: relative;
+  width: 100%;
+  height: 7vh;
+  margin-top: 3vh;
+}
+
+.phone_input .phone-icon {
+  position: absolute;
+  left: 0;
+  height: 7vh;
+  width: 7vh;
+  border-right: 1px solid #dfdfdf;
+  border-top-left-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
+  background: url(../images/icons/dianhua.png) no-repeat;
+  background-size: 3.5vh 3.5vh;
+  background-position: center;
+}
+
+.phone_input .item_phone #phone {
+  width: 100%;
+  padding-left: 9vh;
+  font-size: 1.2em;
+  line-height: 6.8vh;
+}
+
+.phone_input .item_check #check {
+  width: 13vw;
+  height: 100%;
+  padding-left: 0.6em;
+  margin-right: 0.6em;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.4em;
+}
+
+.phone_input button {
+  width: 8vw;
+  height: 100%;
+  background: rgba(128, 128, 128, 0.514);
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+/* 登录 */
+.login_container .click_login {
+  width: 100%;
+  height: 7.4vh;
+  background: #03a9f4;
+  color: white;
+  border-radius: 0.4em;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.login_container .forget_pwd {
+  display: inline-block;
+  margin: 1.9vh 0 3.3vh 17.5vw;
+  font-size: 1.1em;
+}
+
+.login_container .to_register {
+  width: 8.5vw;
+  display: block;
+  margin: 2vh auto 0;
+  font-size: 1.1em;
+}
+
+
+/* 其他方式登录 */
+.right .other_methods {
+  width: 28vw;
+  height: 9vh;
+  line-height: 9vh;
+  margin: auto;
+  background: #f3f8fe;
+  border-bottom-left-radius: 0.7em;
+  border-bottom-right-radius: 0.7em;
+  vertical-align: middle;
+}
+
+.other_methods .ways {
+  float: left;
+  width: 8.5vw;
+  margin-left: 2.4vw;
+  font-size: 1.4em;
+  color: #03a9f4;
+}
+
+.other_methods .qq {
+  background: url(../images/icons/tengxun.png);
+}
+
+/* url 要写在background-size前面，否则background-size无效*/
+.other_methods .wechat {
+  background: url(../images/icons/weixin.png);
+}
+
+.other_methods .icon {
+  float: left;
+  height: 6vh;
+  width: 6vh;
+  margin: 0.8em 0 0 1.2em;
+  border-radius: 3vh;
+  background-size: 6vh 6vh;
+  background-position: center;
+}
+
+
+
+.author {
+  text-align: center;
+  margin-top: 3vh;
+  color: white;
+  font-size: 1.4em;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,67 @@
+/* 澹版槑瀛椾綋鍥炬爣 娉ㄦ剰瑕佹洿鎹㈣矾寰� */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?vnci0q');
+  src:  url('../fonts/icomoon.eot?vnci0q#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?vnci0q') format('truetype'),
+    url('../fonts/icomoon.woff?vnci0q') format('woff'),
+    url('../fonts/icomoon.svg?vnci0q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #03a9f4;
+}
+
+img {
+  border: 0;
+}
+
+/* 娓呴櫎娴姩 */
+.clearfix::after {
+  content: ''; /*蹇呴』鍐�*/
+  visibility: hidden;
+  clear: both;
+  display: block;
+  height: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+button,
+input {
+  font-family: Microsoft YaHei, Heiti SC, tahoma, Arial, Helvetica, sans-serif, '\5B8B\4F53';
+  /* 榛樿鏈夌伆鑹茶竟妗嗭紝闇�瑕佸幓鎺� */
+  border: 0;
+  outline: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, Arial, Helvetica, sans-serif, '\5B8B\4F53';
+  color: #666;
+}
