@@ -1,0 +1,34 @@
+Causes name,avg(delta_Death Rate)
+Neoplasms,7.895845760599778E-4
+Cardiovascular diseases,5.009948389933879E-4
+Alzheimer's disease and other dementias,3.647236169879077E-4
+Diabetes mellitus,2.6621042401660033E-4
+Chronic kidney disease,2.501750949692664E-4
+HIV/AIDS,1.6986367484564074E-4
+Parkinson's disease,6.733919166112104E-5
+Drug use disorders,2.108700287314682E-5
+Terrorism (deaths),1.0359435080295576E-5
+Cirrhosis and other chronic liver diseases,3.4368898730010568E-6
+Alcohol use disorders,-1.2537585803034878E-7
+Number of executions (Amnesty International),-1.1603320614414878E-6
+Environmental heat and cold exposure,-1.4450810102619083E-5
+Poisonings,-2.2444363673225988E-5
+Exposure to forces of nature,-2.9873708496083203E-5
+"Fire, heat, and hot substances",-2.9963083037577076E-5
+Conflict and terrorism,-4.708062810580481E-5
+Digestive diseases,-5.594699586691907E-5
+Interpersonal violence,-5.608843296301697E-5
+Acute hepatitis,-7.231327245650824E-5
+Maternal disorders,-1.0798974990335771E-4
+Self-harm,-1.39023094867117E-4
+Meningitis,-1.736547842129E-4
+Road injuries,-1.8457668756406082E-4
+Drowning,-1.9231636548298954E-4
+Chronic respiratory diseases,-2.2301759507893434E-4
+Malaria,-2.55597856900527E-4
+Protein-energy malnutrition,-3.293202817084174E-4
+Nutritional deficiencies,-3.7707945676606003E-4
+Tuberculosis,-6.230752224911508E-4
+Lower respiratory infections,-0.001030725080094085
+Neonatal disorders,-0.0011032749781480341
+Diarrheal diseases,-0.0011854925788144252
