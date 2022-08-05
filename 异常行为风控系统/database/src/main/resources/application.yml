@@ -1,0 +1,16 @@
+#server
+server:
+    port: 5000
+
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://117.50.188.75:5432/postgres
+        username: postgres
+        password: postgres
+
+#mybatis-plus config
+mybatis-plus:
+    mapper-locations: classpath*:com/elvira/blog/mapper/**Mapper
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
