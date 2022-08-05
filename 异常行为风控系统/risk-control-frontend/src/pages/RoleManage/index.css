@@ -1,0 +1,20 @@
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+.tableTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px !important;
+}
+.tableTop .actionBtn .deleteBtn {
+  margin-right: 10px;
+}
+.tableTop .actionBtn .addBtn:hover {
+  background: #F0FFF9;
+}
+.tableTop .searchInput {
+  width: 400px;
+  margin-right: 10px;
+}

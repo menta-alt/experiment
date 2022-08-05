@@ -1,0 +1,42 @@
+.addMask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 2000;
+
+  .addCard {
+    width: 600px;
+    padding: 10px 20px 15px;
+    background: white;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+  
+      h3 {
+        margin: 0;
+      }
+  
+      .closeBtn {
+        cursor: pointer;
+        line-height: 26px;
+        color: #bbb;
+      }
+    }
+
+    .formItem {
+      margin-bottom: 0px !important;
+    }
+  }
+}
+
+.nomask {
+  display: none;
+}
